@@ -1,0 +1,26 @@
+{
+  "name": "lambda-edge-serve-compressed-file",
+  "version": "1.0.0",
+  "description": "Lambda@Edge for serving Brotli or Gzipped file according to the Content-Encoding header",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SUI-Components/lambda-edge-serve-compressed-file.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SUI-Components/lambda-edge-serve-compressed-file/issues"
+  },
+  "homepage": "https://github.com/SUI-Components/lambda-edge-serve-compressed-file#readme",
+  "dependencies": {
+    "@s-ui/lint": "2"
+  },
+  "eslintConfig": {
+    "extends": ["./node_modules/@s-ui/lint/eslintrc.js"]
+  }
+}
