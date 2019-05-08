@@ -1,7 +1,7 @@
 # lambda-edge-serve-compressed-file
 Lambda@Edge for serving Brotli or Gzipped file according to the Content-Encoding header. It supports CSS and JS files.
 
-## Requirements
+## Requirements
 
 1. Use S3 && Cloudfront
 2. You MUST upload your CSS & JS files already compressed to the bucked. In other words, you MUST upload the same file three times: without compression, compressed with Brotli (and .br extension), compressed with Gzip (and .gzip compression).
